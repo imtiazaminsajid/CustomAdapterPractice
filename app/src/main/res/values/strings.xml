@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">CustomAdapterPractice</string>
-    
+
     <string-array name="CountryName">
         <item>Bangladesh</item>
         <item>Afghanistan</item>
@@ -12,5 +12,31 @@
         <item>Srilanka</item>
         <item>Sweden</item>
         <item>Uganda</item>
+    </string-array>
+
+    <string-array name="Population">
+        <item>Population: 12345678</item>
+        <item>Population: 21345678</item>
+        <item>Population: 31245678</item>
+        <item>Population: 41235678</item>
+        <item>Population: 51234678</item>
+        <item>Population: 61234578</item>
+        <item>Population: 71234568</item>
+        <item>Population: 81234567</item>
+        <item>Population: 91234567</item>
+        <item>Population: 01234678</item>
+    </string-array>
+
+    <string-array name="About">
+        <item>ABCDEFGHIJKLMNOP</item>
+        <item>BBCDEFGHIJKLMNOP</item>
+        <item>CBCDEFGHIJKLMNOP</item>
+        <item>DBCDEFGHIJKLMNOP</item>
+        <item>EBCDEFGHIJKLMNOP</item>
+        <item>FBCDEFGHIJKLMNOP</item>
+        <item>GBCDEFGHIJKLMNOP</item>
+        <item>HBCDEFGHIJKLMNOP</item>
+        <item>IBCDEFGHIJKLMNOP</item>
+        <item>JBCDEFGHIJKLMNOP</item>
     </string-array>
 </resources>
