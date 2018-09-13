@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">CustomAdapterPractice</string>
+    
+    <string-array name="CountryName">
+        <item>Bangladesh</item>
+        <item>Afghanistan</item>
+        <item>Argentina</item>
+        <item>Belgium</item>
+        <item>Finland</item>
+        <item>India</item>
+        <item>Pakistan</item>
+        <item>Srilanka</item>
+        <item>Sweden</item>
+        <item>Uganda</item>
+    </string-array>
 </resources>
