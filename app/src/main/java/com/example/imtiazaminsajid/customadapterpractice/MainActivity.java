@@ -38,9 +38,22 @@ public class MainActivity extends AppCompatActivity {
 
         countryName =  getResources().getStringArray(R.array.CountryName);
         population =  getResources().getStringArray(R.array.Population);
+        about =  getResources().getStringArray(R.array.About);
 
-        CustomAdapter customAdapter = new CustomAdapter(this, countryName, flags,population);
+        CustomAdapter customAdapter = new CustomAdapter(this, countryName, flags,population, about);
         listView.setAdapter(customAdapter);
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                Intent intent = new Intent(MainActivity.this, ListView.class);
+                intent.putExtra("CN", countryName[i]);
+                intent.putExtra("AB", about[i]);
+                intent.putExtra("PP", population[i]);
+                intent.putExtra("FL", flags[i]);
+                startActivity(intent);
+            }
+        });
 
     }
 }

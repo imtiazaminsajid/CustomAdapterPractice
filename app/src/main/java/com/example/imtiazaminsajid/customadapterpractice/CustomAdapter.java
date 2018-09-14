@@ -12,6 +12,7 @@ public class CustomAdapter extends BaseAdapter {
 
     String[] countryName;
     String[] population;
+    String[] about;
     int[] flags;
     Context context;
     LayoutInflater inflater;
@@ -19,9 +20,10 @@ public class CustomAdapter extends BaseAdapter {
     public CustomAdapter() {
     }
 
-    public CustomAdapter(Context context,String[] countryName, int[] flags, String[] population) {
+    public CustomAdapter(Context context,String[] countryName, int[] flags, String[] population, String[] about) {
         this.countryName = countryName;
         this.population = population;
+        this.about = about;
         this.flags = flags;
         this.context = context;
     }
@@ -53,10 +55,12 @@ public class CustomAdapter extends BaseAdapter {
         ImageView flag = view.findViewById(R.id.countryFlagIV);
         TextView country = view.findViewById(R.id.countryNameTV);
         TextView popu = view.findViewById(R.id.populationTV);
+        TextView abot = view.findViewById(R.id.aboutTV);
 
         flag.setImageResource(flags[i]);
         country.setText(countryName[i]);
         popu.setText(population[i]);
+        abot.setText(about[i]);
 
 
         return view;
