@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ListView"></activity>
+        <activity android:name=".ListView_details"
+            android:parentActivityName=".MainActivity"> </activity>
     </application>
 
 </manifest>

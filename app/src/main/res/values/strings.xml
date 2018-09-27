@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CustomAdapterPractice</string>
+    <string name="app_name">CustomListViewPractice</string>
 
     <string-array name="CountryName">
         <item>Bangladesh</item>
@@ -28,15 +28,15 @@
     </string-array>
 
     <string-array name="About">
-        <item>ABCDEFGHIJKLMNOP</item>
-        <item>BBCDEFGHIJKLMNOP</item>
-        <item>CBCDEFGHIJKLMNOP</item>
-        <item>DBCDEFGHIJKLMNOP</item>
-        <item>EBCDEFGHIJKLMNOP</item>
-        <item>FBCDEFGHIJKLMNOP</item>
-        <item>GBCDEFGHIJKLMNOP</item>
-        <item>HBCDEFGHIJKLMNOP</item>
-        <item>IBCDEFGHIJKLMNOP</item>
-        <item>JBCDEFGHIJKLMNOP</item>
+        <item>Modern Bangladesh emerged as an independent nation in 1971 after breaking away and achieving independence from Pakistan in the Bangladesh Liberation War. The country's borders coincide with the major portion of the ancient and historic region of Bengal in the eastern part of the Indian subcontinent, where civilisation dates back over four millennia, to the Chalcolithic. The history of the region is closely intertwined with the history of Bengal and the history of India.</item>
+        <item>The land that is now Afghanistan has a long history of domination by foreign conquerors and strife among internally warring factions. ... Mahmud of Ghazni, an 11th century conqueror who created an empire from Iran to India, is considered the greatest of Afghanistan's conquerors.</item>
+        <item>In 1972 Sri Lanka assumed the status of a Republic. A constitution was introduced in 1978 which made the Executive President the head of state. The Sri Lankan Civil War began in 1983, including an armed youth uprising in 1971 and 1987–1989, with the 25-year-long civil war ending in 2009</item>
+        <item>In 1972 Sri Lanka assumed the status of a Republic. A constitution was introduced in 1978 which made the Executive President the head of state. The Sri Lankan Civil War began in 1983, including an armed youth uprising in 1971 and 1987–1989, with the 25-year-long civil war ending in 2009</item>
+        <item>In 1972 Sri Lanka assumed the status of a Republic. A constitution was introduced in 1978 which made the Executive President the head of state. The Sri Lankan Civil War began in 1983, including an armed youth uprising in 1971 and 1987–1989, with the 25-year-long civil war ending in 2009</item>
+        <item>The history of India includes the prehistoric settlements and societies in the Indian subcontinent; the advancement of civilisation from the Indus Valley Civilisation to the eventual blending of the Indo-Aryan culture to form the Vedic Civilisation; the rise of Hinduism, Jainism and Buddhism; the onset of a succession</item>
+        <item>In 1972 Sri Lanka assumed the status of a Republic. A constitution was introduced in 1978 which made the Executive President the head of state. The Sri Lankan Civil War began in 1983, including an armed youth uprising in 1971 and 1987–1989, with the 25-year-long civil war ending in 2009</item>
+        <item>In 1972 Sri Lanka assumed the status of a Republic. A constitution was introduced in 1978 which made the Executive President the head of state. The Sri Lankan Civil War began in 1983, including an armed youth uprising in 1971 and 1987–1989, with the 25-year-long civil war ending in 2009</item>
+        <item>In 1972 Sri Lanka assumed the status of a Republic. A constitution was introduced in 1978 which made the Executive President the head of state. The Sri Lankan Civil War began in 1983, including an armed youth uprising in 1971 and 1987–1989, with the 25-year-long civil war ending in 2009</item>
+        <item>In 1972 Sri Lanka assumed the status of a Republic. A constitution was introduced in 1978 which made the Executive President the head of state. The Sri Lankan Civil War began in 1983, including an armed youth uprising in 1971 and 1987–1989, with the 25-year-long civil war ending in 2009</item>
     </string-array>
 </resources>

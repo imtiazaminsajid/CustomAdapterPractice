@@ -46,11 +46,12 @@ public class MainActivity extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Intent intent = new Intent(MainActivity.this, ListView.class);
+                Intent intent = new Intent(MainActivity.this, ListView_details.class);
                 intent.putExtra("CN", countryName[i]);
                 intent.putExtra("AB", about[i]);
                 intent.putExtra("PP", population[i]);
                 intent.putExtra("FL", flags[i]);
+
                 startActivity(intent);
             }
         });

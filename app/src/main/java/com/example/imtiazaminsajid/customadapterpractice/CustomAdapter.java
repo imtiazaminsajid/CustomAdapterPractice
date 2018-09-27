@@ -55,12 +55,12 @@ public class CustomAdapter extends BaseAdapter {
         ImageView flag = view.findViewById(R.id.countryFlagIV);
         TextView country = view.findViewById(R.id.countryNameTV);
         TextView popu = view.findViewById(R.id.populationTV);
-        TextView abot = view.findViewById(R.id.aboutTV);
+        TextView abt = view.findViewById(R.id.aboutTV);
 
         flag.setImageResource(flags[i]);
         country.setText(countryName[i]);
         popu.setText(population[i]);
-        abot.setText(about[i]);
+        abt.setText(about[i]);
 
 
         return view;

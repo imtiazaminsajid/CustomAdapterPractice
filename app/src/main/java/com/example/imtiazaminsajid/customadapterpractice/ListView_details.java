@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class ListView extends AppCompatActivity {
+public class ListView_details extends AppCompatActivity {
     ImageView im;
     TextView cn, pp, ab;
 
@@ -23,9 +23,9 @@ public class ListView extends AppCompatActivity {
         Bundle bundle = getIntent().getExtras();
         if (bundle!=null){
             im.setImageResource(bundle.getInt("FL"));
-            cn.setText("CN");
-            pp.setText("PP");
-            ab.setText("AB");
+            cn.setText(bundle.getString("CN"));
+            pp.setText(bundle.getString("PP"));
+            ab.setText(bundle.getString("AB"));
         }
 
 
